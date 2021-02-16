@@ -1,0 +1,16 @@
+//common variables scss
+@import './styles/_color';
+
+// app.scss
+@import './styles/App.scss';
+
+//componets
+@import './styles/components/Sort.scss';
+@import './styles/components/Button.scss';
+@import './styles/components/Filter.scss';
+@import './styles/components/Header.scss';
+@import './styles/components/Footer.scss';
+@import './styles/components/ShoppingList.scss';
+
+// pages
+@import './styles/pages/cart.scss'

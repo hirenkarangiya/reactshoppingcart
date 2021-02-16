@@ -1,0 +1,47 @@
+.header{
+    background: $primary;
+    padding: 10px 30px;
+    margin-bottom: 1rem;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-logo{
+            color: $secondary;
+        }
+
+        &-right-sec{
+            &-menu{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                .items{
+                    margin-right: 15px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+
+                    .cart{
+                        position: relative;
+                        background-color: transparent;
+
+                        .cart_badge{
+                            position: absolute;
+                            padding: 3px 5px;
+                            border-radius: 10px;
+                            color: $white;
+                            background-color: $secondary;
+                            top: -10px;
+                            right: -8px;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.cart-items-list{
+
+    .item-price{
+        .actual{
+            margin-right: 2px;
+            font-size: 14px;
+        }
+
+        .display{
+            margin-left: 2px;
+            color: $grey;
+        }
+    }
+
+    .qty-btn{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}

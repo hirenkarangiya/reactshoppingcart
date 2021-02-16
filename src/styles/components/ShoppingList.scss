@@ -1,0 +1,56 @@
+.shopping_list{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    &-item{
+        margin: 1rem 0;
+        background-color: $white;
+        padding: 15px;
+        .item-thumbnail{
+            max-height: 250px;
+            margin-bottom: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .item-name{
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .item-price-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+
+            .item-price{
+
+                .actual{
+                    margin-right: 2px;
+                    font-size: 14px;
+                }
+
+                .display{
+                    margin-left: 2px;
+                    color: $grey;
+                }
+            }
+
+            .item-discount{
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+
+    .errors {
+        font-size: 20px;
+        color: red;
+        margin: 2rem 1em;
+        width: 100%;
+        text-align: center;
+    }
+}

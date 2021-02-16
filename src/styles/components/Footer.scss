@@ -1,0 +1,14 @@
+.footer{
+    background-color: $primary;
+    padding: 10px 30px;
+    margin-top: 1rem;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-copyright{
+            margin: 0;
+            color: $white;
+        }
+    }
+}

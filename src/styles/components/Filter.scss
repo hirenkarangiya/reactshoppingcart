@@ -1,0 +1,32 @@
+.filter__container{
+    padding: 15px 5px;
+    &-title{
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-controlers{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+    .range_input{
+        background-color: $grey;
+        .rs-slider-progress-bar{
+            background-color: $primary;
+        }
+    }
+
+    .range_handle{
+        &::before{
+            border-color: $primary;
+        }
+    }
+
+    .range_slider_label {
+        display: flex;
+        justify-content: space-between;
+        width: 110%;
+        margin-left: -15px;
+    }
+}
